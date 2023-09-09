@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box:hover,h2:hover {
+    transform: scale(1.1);
+    background-color:aqua;
+    columns: white;
+}
+button{
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:black;
+    color:red ;
+}
